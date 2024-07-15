@@ -137,6 +137,8 @@ BFFNT extract/create tool.  Creates a JSON manifest. Get the PNG Using Switch To
 ### Usage
 Open The bffnt.pyw from the bffnt folder. Make sure the other files are there.
 ![iomkrBFFNT](https://github.com/ikyih/3dstools/blob/master/images/iomkrbffnt.png?raw=true)
+![iomkrBFFNT windows](https://github.com/ikyih/3dstools/blob/master/images/iomkrbffntwindows.png?raw=true)
+![iomkrBFFNT linux](https://github.com/ikyih/3dstools/blob/master/images/iomkrbffntlinux.png?raw=true)
 ## bflim.py
 
 BFLIM converter to and from PNG files.  This tool is still in development.
