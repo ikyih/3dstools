@@ -1,0 +1,1 @@
+Note: iomkrBFFNT Does Not Work For Exporting .Png Files. Please Use Switch Toolbox for that.
