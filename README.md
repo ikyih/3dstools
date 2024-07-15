@@ -1,4 +1,4 @@
-# 3DS Data Tools
+# 3DS Data Tools Gui
 Tools for extracting and packing resources found in 3DS games
 
 
@@ -132,53 +132,11 @@ file2.txt
 
 ## bffnt.py
 
-BFFNT extract/create tool.  Creates a PNG file from the texture atlases in a BFFNT as well as a JSON manifest.
+BFFNT extract/create tool.  Creates a JSON manifest. Get the PNG Using Switch Toolbox.
 
 ### Usage
-
-```
-usage: bffnt [-h] [-v] [-d] [-y] [-l | -b] (-c | -x) -f bffnt
-
-BFFNT Converter Tool
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -v, --verbose         print more data when working
-  -d, --debug           print debug information
-  -y, --yes             answer yes to any questions (overwriting files)
-  -a, --ensure-ascii    turn off ensure_ascii option when dump json file
-  -l, --little-endian   Use little endian encoding in the created BFFNT file
-                        (default)
-  -b, --big-endian      Use big endian encoding in the created BFFNT file
-  -c, --create          create BFFNT file from extracted files
-  -x, --extract         extract BFFNT into PNG/JSON files
-  -f bffnt, --file bffnt
-                        BFFNT file
-```
-
-#### Examples
-
-Extract a BFFNT to PNG/JSON:
-
-```
-bffnt.py -xf Sample.bffnt
-```
-
-Results:
-
-```
-Sample_manifest.json
-Sample_sheet0.png
-```
-
-Create a BFFNT from PNG/JSON:
-
-```
-bffnt.py -cf Sample.bffnt
-```
-
-Note: `Sample_manifest.json` and `Sample_sheet0.png` must be in the current directory to build `Sample.bffnt`
-
+Open The bffnt.pyw from the bffnt folder. Make sure the other files are there.
+![iomkrBFFNT](https://github.com/ikyih/3dstools/blob/master/images/iomkrbffnt.png?raw=true)
 ## bflim.py
 
 BFLIM converter to and from PNG files.  This tool is still in development.
